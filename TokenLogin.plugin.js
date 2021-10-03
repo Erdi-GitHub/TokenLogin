@@ -35,7 +35,7 @@
         this.keydownListener = event => {
             if(!(event.altKey && event.key.toLowerCase() === "l")) return;
 
-            const className = "bot-token-" + uuid();
+            const className = "token-" + uuid();
 
             const input = BdApi.React.createElement(
                 "input",
